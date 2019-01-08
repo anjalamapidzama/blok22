@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>KONTAKT</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        
+        <div class="containerKontakt">
+            <form method="post" name="myemailform" action="SubmitForme/submit.php">
+
+    <label for="fname">Ime</label>
+    <input type="text" id="fname" name="fname" placeholder="Vaše ime..">
+
+    <label for="lname">Prezime</label>
+    <input type="text" id="lname" name="lname" placeholder="Vaše prezime..">
+
+    <label for="pitanje">Da li živite u 22. bloku?</label>
+    <select id="pitanje" name="pitanje">
+      <option value="-">-</option>
+      <option value="da">Da</option>
+      <option value="ne">Ne</option>
+    </select>
+
+    <label for="subject">Sadržaj pourke</label>
+    <textarea id="subject" name="subject" placeholder="Poruka.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+
+</html>
